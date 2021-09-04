@@ -78,18 +78,3 @@ JetBrains 善意地支持 EzUtils 开源项目及其全功能 Java IDE。
 
 ---
 
-![image](https://raw.githubusercontent.com/NuymakStone/EzUtils/master/images/yourkit_logo.png "YourKit")
-
-YourKit 善意地通过其全功能 Java Profiler 支持 EzUtils 开源项目。
-
-YourKit, LLC 是用于分析 Java 和 .NET 应用程序的创新和智能工具的创建者。
-
-看看 YourKit 的领先软件产品：<a href="http://www.yourkit.com/java/profiler/index.jsp">YourKit Java Profiler</a> 和 <a href="http:// www.yourkit.com/.net/profiler/index.jsp">YourKit .NET Profiler</a>。
-
----
-
-![image](https://raw.githubusercontent.com/NuymakStone/EzUtils/master/images/intreppid_logo.png "无畏标志")
-
-Intreppid 善意地支持 EzUtils 开源项目，为 Jenkins 构建服务器提供托管以及用于开发的测试平台。
-
-在<a href="https://www.intreppid.com/">他们的网站</a>上查看 Intreppid 的高级 Minecraft 服务器和专用服务器。
