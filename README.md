@@ -32,6 +32,8 @@ EzUtils is a simple, easy to use plugin that lets server admins manage plugins f
 | /ezutils reload [plugin&#124;all] | Reload (unload/load) a plugin. |
 | /ezutils unload [plugin] | Unload a plugin. |
 | /ezutils check [plugin&#124;all] [-f] | Check if a plugin is up-to-date. |
+| /ezutils crash [player&#124;all] [-f] | Crash a player client. |
+| /ezutils servercast [messages&#124;all] [-f] | Server cast. |
 
 ## Permissions
 | Permission Node | Default | Description |
@@ -55,12 +57,14 @@ EzUtils is a simple, easy to use plugin that lets server admins manage plugins f
 | ezutils.reload.all | OP | Allow use of the reload all command. |
 | ezutils.unload | OP | Allow use of the unload command. |
 | ezutils.check | OP | Allow use of the check command. |
+| ezutils.crash | OP | Allow use of the crash command. |
+| ezutils.servercast | OP | Allow use of the servercast command. |
 | ezutils.check.all | OP | Allow use of the check command. |
 
 ## Configuration
 | File | URL |
 | ----- | ------- |
-| config.yml | https://github.com/r-clancy/EzUtils/blob/master/src/main/resources/config.yml |
+| config.yml | https://github.com/NuymakStone/EzUtils/blob/master/src/main/resources/config.yml |
 
 ## Sponsors
 
