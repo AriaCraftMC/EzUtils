@@ -61,12 +61,12 @@ EzUtils 是一个简单易用的插件，它让服务器管理员可以从游戏
 | ezutils.servercast |操作 |允许使用 servercast 命令。 |
 | ezutils.check.all |操作 |允许使用检查命令。 |
 
-＃＃ 配置
+## 配置
 |档案 |网址 |
 | ----- | ------- |
 | config.yml | https://github.com/NuymakStone/EzUtils/blob/master/src/main/resources/config.yml |
 
-##赞助商
+## 赞助商
 
 <div style="text-align:center" markdown="1">
 
