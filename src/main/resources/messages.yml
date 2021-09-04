@@ -1,0 +1,83 @@
+prefix: '&7[&bEzUtils&7] '
+check:
+  header: '&9检索插件版本...'
+  not-found: '&9未安装插件 - 最新可用版本是 "{0}".'
+  not-found-spigot: '&c无法获取插件数据 - 插件是否作为 Spigot 资源存在?'
+  out-of-date: '&c当前版本 (&4{0}&c) 与最新版本不匹配 (&2{1}&c).'
+  out-of-date-player: '&c旧版本（已安装 -> 最新）: {0}'
+  up-to-date: '&9插件是最新的使用版本 "{0}".'
+  up-to-date-player: '&b最新（已安装）: {0}'
+  file-done: '&9文件转储完成: {0}'
+  unknown: '&c版本信息未知.'
+  unknown-player: '&c未知（已安装）: {0}'
+  not-available: '&c{0} 的版本信息不可用.'
+disable:
+  all: '&9所有插件已被禁用（不包括 EzUtils）.'
+  already-disabled: '&c{0} 已经被禁用.'
+  disabled: '&9{0} 已被禁用.'
+dump:
+  dumped: '&9插件转储到 {0}.'
+  error: '&4无法转储到文件.'
+enable:
+  all: '&9已启用所有插件.'
+  already-enabled: '&c{0} 已经启用。'
+  enabled: '&9{0} 已启用.'
+error:
+  ignored: '&cEzUtils 配置为忽略该插件.'
+  invalid-plugin: '&c这不是一个有效的插件.'
+  no-permission: '&c您无权执行此操作。'
+  specify-plugin: '&c您必须指定一个插件。'
+  specify-command: '&c您必须指定一个命令。'
+  usage:
+    command: '&7- &9命令: &7{0}'
+    description: '&7- &9介绍: &7{0}'
+    usage: '&7- &9页数: &7{0}'
+help:
+  header: '&7--------------------- [&b EzUtils &7] ---------------------'
+  help: '&7- &b/ezutils help &f- &7显示帮助.'
+  list: '&7- &b/ezutils list [-v] &f- &7列出所有的命令 (-v 显示版本).'
+  dump: '&7- &b/ezutils dump &f- &7将插件名称和版本转储到文件.'
+  info: '&7- &b/ezutils info <plugin> &f- &7获取插件信息.'
+  usage: '&7- &b/ezutils usage <plugin> &f- &7列出插件已注册的命令。'
+  lookup: '&7- &b/ezutils lookup <command> &f- &7查找命令注册到的插件。'
+  enable: '&7- &b/ezutils enable <plugin|all> &f- &7启用插件.'
+  disable: '&7- &b/ezutils disable <plugin|all> &f- &7禁用插件。'
+  restart: '&7- &b/ezutils restart <plugin|all> &f- &7重启插件。'
+  load: '&7- &b/ezutils load <plugin> &f- &7加载插件.'
+  reload: '&7- &b/ezutils reload <plugin|all> &f- &7重新加载插件.'
+  unload: '&7- &b/ezutils unload <plugin> &f- &7卸载插件.'
+  check: '&7- &b/ezutils check <plugin|all> [-f] &f- &7检查插件是否是最新的（-f 全部转储到文件）.'
+  servercast: '&7- &b/ezutils servercast <message> &f- &7广播消息.'
+  crash: '&7- &b/ezutils crash <player> &f- &7崩溃玩家的客户端.'
+info:
+  header: '插件信息: {0}'
+  version: '&7- 版本: &b{0}'
+  authors: '&7- 作者: &b{0}'
+  status: '&7- 状况: {0}'
+  depends: '&7- 依赖: {0}'
+  softdepends: '&7- 软依赖: &b{0}'
+list:
+  list: '&9Plugins ({0}): {1}'
+load:
+  already-loaded: '&c{0} 已经加载.'
+  cannot-find: '&c找不到文件，也无法搜索说明。'
+  invalid-description: '&c该插件的描述无效。'
+  invalid-plugin: '&c该文件不是有效的插件。'
+  loaded: '&9{0} 已加载并启用。'
+  plugin-dir: '&c未找到插件目录。'
+lookup:
+  found: '&9/{0} 注册到 {1}.'
+  not-found: '&c命令“/{0}”未在任何 plugin.yml 中注册'
+reload:
+  all: '&9所有插件都已重新加载。'
+  reloaded: '&9{0} 已重新加载。'
+restart:
+  all: '&9所有插件都已重新启动。'
+  restarted: '&9{0} 已重新启动.'
+unload:
+  failed: '&c卸载失败 {0}.'
+  unloaded: '&9{0} 已卸载.'
+updater:
+  available: '&9有新的更新可用: &bhttp://github.com/NuymakStone/EzUtils'
+usage:
+  usage: '&9命令: &7{0}'

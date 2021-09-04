@@ -1,0 +1,103 @@
+name: EzUtils
+main: me.nuymakstone.ezutils.EzUtils
+version: 2.1.7
+description: Plugin manager for Bukkit servers
+author: NuymakStone
+api-version: 1.13
+commands:
+  ezutils:
+    description: Manage plugins.
+    permission: ezutils.help
+    usage: /ezutils (help|dump)
+           /ezutils list [-v]
+           /ezutils check <plugin|all> [-f]
+           /ezutils lookup <command>
+           /ezutils (enable|disable|restart) <plugin|all>
+           /ezutils (info|usage|load|reload|unload) <plugin>
+           /ezutils crash <player>
+           /ezutils servercast <message>
+permissions:
+  ezutils.admin:
+    description: Allows use of all EzUtils commands.
+    default: op
+    children:
+      ezutils.update: true
+      ezutils.help: true
+      ezutils.list: true
+      ezutils.dump: true
+      ezutils.info: true
+      ezutils.usage: true
+      ezutils.lookup: true
+      ezutils.enable: true
+      ezutils.enable.all: true
+      ezutils.disable: true
+      ezutils.disable.all: true
+      ezutils.restart: true
+      ezutils.restart.all: true
+      ezutils.load: true
+      ezutils.reload: true
+      ezutils.unload: true
+      ezutils.servercast: true
+      ezutils.crash: true
+      ezutils.check: true
+      ezutils.check.all: true
+  ezutils.update:
+    description: Allows the player to see the update alerts.
+    default: op
+  ezutils.help:
+    description: Allows use of the help command.
+    default: op
+  ezutils.list:
+    description: Allows use of the list command.
+    default: op
+  ezutils.dump:
+    description: Allows use of the dump command.
+    default: op
+  ezutils.info:
+    description: Allows use of the info command.
+    default: op
+  ezutils.usage:
+    description: Allows use of the usage command.
+    default: op
+  ezutils.lookup:
+    description: Allows use of the lookup command.
+    default: op
+  ezutils.enable:
+    description: Allows use of the enable command.
+    default: op
+  ezutils.enable.all:
+    description: Allows use of the enable all command.
+    default: op
+  ezutils.disable:
+    description: Allows use of the disable command.
+    default: op
+  ezutils.disable.all:
+    description: Allows use of the disable all command.
+    default: op
+  ezutils.restart:
+    description: Allows use of the restart command.
+    default: op
+  ezutils.restart.all:
+    description: Allows use of the restart all command.
+    default: op
+  ezutils.load:
+    description: Allows use of the load command.
+    default: op
+  ezutils.reload:
+    description: Allows use of the reload command.
+    default: op
+  ezutils.unload:
+    description: Allows use of the unload command.
+    default: op
+  ezutils.check:
+    description: Allows use of the check command.
+    default: op
+  ezutils.check.all:
+    description: Allows use of the check all command.
+    default: op
+  ezutils.crash:
+    description: Allows use of the crash command.
+    default: op
+  ezutils.servercast:
+    default: op
+    description: Allows use of the servercast command.
