@@ -70,7 +70,7 @@ EzUtils is a simple, easy to use plugin that lets server admins manage plugins f
 
 <div style="text-align:center" markdown="1">
 
-![image](https://raw.githubusercontent.com/r-clancy/EzUtils/master/images/jetbrains_logo.png "JetBrains")
+![image](https://raw.githubusercontent.com/NuymakStone/EzUtils/master/images/jetbrains_logo.png "JetBrains")
 
 JetBrains is kindly supporting the EzUtils open source project with it's full-featured Java IDE.
 
@@ -78,7 +78,7 @@ Take a look a JetBrain's leading software products over on <a href="http://www.j
 
 ---
 
-![image](https://raw.githubusercontent.com/r-clancy/EzUtils/master/images/yourkit_logo.png "YourKit")
+![image](https://raw.githubusercontent.com/NuymakStone/EzUtils/master/images/yourkit_logo.png "YourKit")
 
 YourKit is kindly supporting the EzUtils open source project with its full-featured Java Profiler.
 
@@ -88,7 +88,7 @@ Take a look at YourKit's leading software products: <a href="http://www.yourkit.
 
 ---
 
-![image](https://raw.githubusercontent.com/r-clancy/EzUtils/master/images/intreppid_logo.png "Intreppid Logo")
+![image](https://raw.githubusercontent.com/NuymakStone/EzUtils/master/images/intreppid_logo.png "Intreppid Logo")
 
 Intreppid is kindly supporting the EzUtils open source project with hosting for the Jenkins build server along with a test platform for development.
 
