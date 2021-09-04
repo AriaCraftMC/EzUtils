@@ -1,95 +1,95 @@
-<h1 align="center">EzUtils is no longer actively maintained.</h1>
+<h1 align="center">EzUtils</h1>
 
 # EzUtils
 
-EzUtils is a simple, easy to use plugin that lets server admins manage plugins from either in-game or console without the need to restart the server.
+EzUtils 是一个简单易用的插件，它让服务器管理员可以从游戏内或控制台管理插件，而无需重新启动服务器。
 
-## Features
-* Enable, disable, restart, load, reload, and unload plugins from in-game or console.
-* List plugins alphabetically, with version if specified.
-* Get useful information on plugins such as commands, version, author(s), etc.
-* Easily manage plugins without having to constantly restart your server.
-* List commands a plugin has registered.
-* Find the plugin a command is registered to.
-* Tab completion for command names and plugin names.
-* Dump plugin list with versions to a file.
-* Check if a plugin is up-to-date with dev.bukkit.org
-* Permissions Support - All commands default to OP.
+＃＃ 特征
+* 从游戏内或控制台启用、禁用、重启、加载、重新加载和卸载插件。
+* 按字母顺序列出插件，如果指定则带有版本。
+* 获取有关插件的有用信息，例如命令、版本、作者等。
+* 轻松管理插件，无需不断重启服务器。
+* 列出插件已注册的命令。
+* 查找命令注册到的插件。
+*命令名称和插件名称的选项卡完成。
+* 将带有版本的插件列表转储到文件中。
+* 使用 dev.bukkit.org 检查插件是否是最新的
+* 权限支持 - 所有命令默认为 OP。
 
-## Commands
-| Command | Description |
+## 命令
+|命令 |说明 |
 | --------------- | ---------------- |
-| /ezutils help | Show help information. |
-| /ezutils list [-v] | List plugins in alphabetical order. Use "-v" to include versions. |
-| /ezutils info [plugin] | Displays information about a plugin. |
-| /ezutils dump | Dump plugin names and version to a file. |
-| /ezutils usage [plugin] | List commands that a plugin has registered. |
-| /ezutils lookup [command] | Find the plugin a command is registered to. |
-| /ezutils enable [plugin&#124;all] | Enable a plugin. |
-| /ezutils disable [plugin&#124;all] | Disable a plugin. |
-| /ezutils restart [plugin&#124;all] | Restart (disable/enable) a plugin. |
-| /ezutils load [plugin] | Load a plugin. |
-| /ezutils reload [plugin&#124;all] | Reload (unload/load) a plugin. |
-| /ezutils unload [plugin] | Unload a plugin. |
-| /ezutils check [plugin&#124;all] [-f] | Check if a plugin is up-to-date. |
-| /ezutils crash [player] [-f] | Crash a player client. |
-| /ezutils servercast [messages] [-f] | Server cast. |
+| /ezutils 帮助 |显示帮助信息。 |
+| /ezutils 列表 [-v] |按字母顺序列出插件。使用“-v”来包含版本。 |
+| /ezutils 信息 [插件] |显示有关插件的信息。 |
+| /ezutils 转储 |将插件名称和版本转储到文件中。 |
+| /ezutils 用法 [插件] |列出插件已注册的命令。 |
+| /ezutils 查找 [命令] |查找命令注册到的插件。 |
+| /ezutils 启用 [插件&#124;all] |启用插件。 |
+| /ezutils 禁用 [插件&#124;all] |禁用插件。 |
+| /ezutils restart [插件&#124;all] |重新启动（禁用/启用）插件。 |
+| /ezutils 加载 [插件] |加载插件。 |
+| /ezutils 重新加载 [插件&#124;全部] |重新加载（卸载/加载）插件。 |
+| /ezutils 卸载 [插件] |卸载插件。 |
+| /ezutils 检查 [插件&#124;all] [-f] |检查插件是否是最新的。 |
+| /ezutils 崩溃 [播放器] [-f] |使玩家客户端崩溃。 |
+| /ezutils 服务器广播 [消息] [-f] |服务器演员。 |
 
-## Permissions
-| Permission Node | Default | Description |
+## 权限
+|权限节点 |默认 |说明 |
 | ------------------------- | ---------- | ---------------- |
-| ezutils.admin | OP | Allows use of all EzUtils commands. |
-| ezutils.update | OP | Allows user to see update messages. |
-| ezutils.help | OP | Allow use of the help command. |
-| ezutils.list | OP | Allow use of the list command. |
-| ezutils.info | OP | Allow use of the info command. |
-| ezutils.dump | OP | Allow use of the dump command. |
-| ezutils.usage | OP | Allow use of the usage command. |
-| ezutils.lookup | OP | Allow use of the lookup command. |
-| ezutils.enable | OP | Allow use of the enable command. |
-| ezutils.enable.all | OP | Allow use of the enable all command. |
-| ezutils.disable | OP | Allow use of the disable command. |
-| ezutils.disable.all | OP | Allow use of the disable all command. |
-| ezutils.restart | OP | Allow use of the restart command. |
-| ezutils.restart.all | OP | Allow use of the restart all command. |
-| ezutils.load | OP | Allow use of the load command. |
-| ezutils.reload | OP | Allow use of the reload command. |
-| ezutils.reload.all | OP | Allow use of the reload all command. |
-| ezutils.unload | OP | Allow use of the unload command. |
-| ezutils.check | OP | Allow use of the check command. |
-| ezutils.crash | OP | Allow use of the crash command. |
-| ezutils.servercast | OP | Allow use of the servercast command. |
-| ezutils.check.all | OP | Allow use of the check command. |
+| ezutils.admin |操作 |允许使用所有 EzUtils 命令。 |
+| ezutils.update |操作 |允许用户查看更新消息。 |
+| ezutils.help |操作 |允许使用帮助命令。 |
+| ezutils.list |操作 |允许使用 list 命令。 |
+| ezutils.info |操作 |允许使用 info 命令。 |
+| ezutils.dump |操作 |允许使用转储命令。 |
+| ezutils.usage |操作 |允许使用使用命令。 |
+| ezutils.lookup |操作 |允许使用查找命令。 |
+| ezutils.enable |操作 |允许使用 enable 命令。 |
+| ezutils.enable.all |操作 |允许使用 enable all 命令。 |
+| ezutils.disable |操作 |允许使用禁用命令。 |
+| ezutils.disable.all |操作 |允许使用 disable all 命令。 |
+| ezutils.restart |操作 |允许使用重新启动命令。 |
+| ezutils.restart.all |操作 |允许使用restart all 命令。 |
+| ezutils.load |操作 |允许使用加载命令。 |
+| ezutils.reload |操作 |允许使用重新加载命令。 |
+| ezutils.reload.all |操作 |允许使用 reload all 命令。 |
+| ezutils.unload |操作 |允许使用卸载命令。 |
+| ezutils.check |操作 |允许使用检查命令。 |
+| ezutils.crash |操作 |允许使用 crash 命令。 |
+| ezutils.servercast |操作 |允许使用 servercast 命令。 |
+| ezutils.check.all |操作 |允许使用检查命令。 |
 
-## Configuration
-| File | URL |
+＃＃ 配置
+|档案 |网址 |
 | ----- | ------- |
 | config.yml | https://github.com/NuymakStone/EzUtils/blob/master/src/main/resources/config.yml |
 
-## Sponsors
+##赞助商
 
 <div style="text-align:center" markdown="1">
 
 ![image](https://raw.githubusercontent.com/NuymakStone/EzUtils/master/images/jetbrains_logo.png "JetBrains")
 
-JetBrains is kindly supporting the EzUtils open source project with it's full-featured Java IDE.
+JetBrains 善意地支持 EzUtils 开源项目及其全功能 Java IDE。
 
-Take a look a JetBrain's leading software products over on <a href="http://www.jetbrains.com/">their website.</a>
+在 <a href="http://www.jetbrains.com/">他们的网站上查看 JetBrain 的领先软件产品。</a>
 
 ---
 
 ![image](https://raw.githubusercontent.com/NuymakStone/EzUtils/master/images/yourkit_logo.png "YourKit")
 
-YourKit is kindly supporting the EzUtils open source project with its full-featured Java Profiler.
+YourKit 善意地通过其全功能 Java Profiler 支持 EzUtils 开源项目。
 
-YourKit, LLC is the creator of innovative and intelligent tools for profiling Java and .NET applications.
+YourKit, LLC 是用于分析 Java 和 .NET 应用程序的创新和智能工具的创建者。
 
-Take a look at YourKit's leading software products: <a href="http://www.yourkit.com/java/profiler/index.jsp">YourKit Java Profiler</a> and <a href="http://www.yourkit.com/.net/profiler/index.jsp">YourKit .NET Profiler</a>.
+看看 YourKit 的领先软件产品：<a href="http://www.yourkit.com/java/profiler/index.jsp">YourKit Java Profiler</a> 和 <a href="http:// www.yourkit.com/.net/profiler/index.jsp">YourKit .NET Profiler</a>。
 
 ---
 
-![image](https://raw.githubusercontent.com/NuymakStone/EzUtils/master/images/intreppid_logo.png "Intreppid Logo")
+![image](https://raw.githubusercontent.com/NuymakStone/EzUtils/master/images/intreppid_logo.png "无畏标志")
 
-Intreppid is kindly supporting the EzUtils open source project with hosting for the Jenkins build server along with a test platform for development.
+Intreppid 善意地支持 EzUtils 开源项目，为 Jenkins 构建服务器提供托管以及用于开发的测试平台。
 
-Take a look at Intreppid's premium Minecraft server and dedicated servers on <a href="https://www.intreppid.com/">their website</a>.
+在<a href="https://www.intreppid.com/">他们的网站</a>上查看 Intreppid 的高级 Minecraft 服务器和专用服务器。
