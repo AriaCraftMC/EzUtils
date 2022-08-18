@@ -22,9 +22,9 @@ EzUtils 是一个简单易用的插件，它让服务器管理员可以从游戏
 | /ezutils help |显示帮助信息。 |
 | /ezutils list [-v] |按字母顺序列出插件。使用“-v”来包含版本。 |
 | /ezutils info [插件] |显示有关插件的信息。 |
-| /ezutils 转储 |将插件名称和版本转储到文件中。 |
-| /ezutils  [插件] |列出插件已注册的命令。 |
-| /ezutils 查找 [命令] |查找命令注册到的插件。 |
+| /ezutils dump |将插件名称和版本转储到文件中。 |
+| /ezutils usage [插件] |列出插件已注册的命令。 |
+| /ezutils lookup [命令] |查找命令注册到的插件。 |
 | /ezutils enable [插件&#124;all] |启用插件。 |
 | /ezutils disable [插件&#124;all] |禁用插件。 |
 | /ezutils restart [插件&#124;all] |重新启动（禁用/启用）插件。 |
