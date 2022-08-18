@@ -64,6 +64,6 @@ EzUtils 是一个简单易用的插件，它让服务器管理员可以从游戏
 ## 配置
 |档案 |网址 |
 | ----- | ------- |
-| config.yml | https://github.com/nuym/EzUtils/blob/master/src/main/resources/config.yml |
+| config.yml | https://github.com/AriaCraft/EzUtils/blob/master/src/main/resources/config.yml |
 
 
