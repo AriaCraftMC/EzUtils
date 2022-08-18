@@ -11,7 +11,7 @@ EzUtils 是一个简单易用的插件，它让服务器管理员可以从游戏
 * 轻松管理插件，无需不断重启服务器。
 * 列出插件已注册的命令。
 * 查找命令注册到的插件。
-*命令名称和插件名称的选项卡完成。
+* 命令名称和插件名称的选项卡完成。
 * 将带有版本的插件列表转储到文件中。
 * 使用 dev.bukkit.org 检查插件是否是最新的
 * 权限支持 - 所有命令默认为 OP。
@@ -19,21 +19,21 @@ EzUtils 是一个简单易用的插件，它让服务器管理员可以从游戏
 ## 命令
 |命令 |说明 |
 | --------------- | ---------------- |
-| /ezutils 帮助 |显示帮助信息。 |
-| /ezutils 列表 [-v] |按字母顺序列出插件。使用“-v”来包含版本。 |
-| /ezutils 信息 [插件] |显示有关插件的信息。 |
+| /ezutils help |显示帮助信息。 |
+| /ezutils list [-v] |按字母顺序列出插件。使用“-v”来包含版本。 |
+| /ezutils info [插件] |显示有关插件的信息。 |
 | /ezutils 转储 |将插件名称和版本转储到文件中。 |
-| /ezutils 用法 [插件] |列出插件已注册的命令。 |
+| /ezutils  [插件] |列出插件已注册的命令。 |
 | /ezutils 查找 [命令] |查找命令注册到的插件。 |
-| /ezutils 启用 [插件&#124;all] |启用插件。 |
-| /ezutils 禁用 [插件&#124;all] |禁用插件。 |
+| /ezutils enable [插件&#124;all] |启用插件。 |
+| /ezutils disable [插件&#124;all] |禁用插件。 |
 | /ezutils restart [插件&#124;all] |重新启动（禁用/启用）插件。 |
-| /ezutils 加载 [插件] |加载插件。 |
-| /ezutils 重新加载 [插件&#124;全部] |重新加载（卸载/加载）插件。 |
-| /ezutils 卸载 [插件] |卸载插件。 |
-| /ezutils 检查 [插件&#124;all] [-f] |检查插件是否是最新的。 |
-| /ezutils 崩溃 [播放器] [-f] |使玩家客户端崩溃。 |
-| /ezutils 服务器广播 [消息] [-f] |服务器演员。 |
+| /ezutils load [插件] |加载插件。 |
+| /ezutils reload [插件&#124;全部] |重新加载（卸载/加载）插件。 |
+| /ezutils unload [插件] |卸载插件。 |
+| /ezutils check [插件&#124;all] [-f] |检查插件是否是最新的。 |
+| /ezutils crash [玩家] [-f] |使玩家客户端崩溃。 |
+| /ezutils broadcast [消息] [-f] |服务器广播。 |
 
 ## 权限
 |权限节点 |默认 |说明 |
@@ -64,17 +64,6 @@ EzUtils 是一个简单易用的插件，它让服务器管理员可以从游戏
 ## 配置
 |档案 |网址 |
 | ----- | ------- |
-| config.yml | https://github.com/NuymakStone/EzUtils/blob/master/src/main/resources/config.yml |
+| config.yml | https://github.com/nuym/EzUtils/blob/master/src/main/resources/config.yml |
 
-## 赞助商
-
-<div style="text-align:center" markdown="1">
-
-![image](https://raw.githubusercontent.com/NuymakStone/EzUtils/master/images/jetbrains_logo.png "JetBrains")
-
-JetBrains 善意地支持 EzUtils 开源项目及其全功能 Java IDE。
-
-在 <a href="http://www.jetbrains.com/">他们的网站上查看 JetBrain 的领先软件产品。</a>
-
----
 
